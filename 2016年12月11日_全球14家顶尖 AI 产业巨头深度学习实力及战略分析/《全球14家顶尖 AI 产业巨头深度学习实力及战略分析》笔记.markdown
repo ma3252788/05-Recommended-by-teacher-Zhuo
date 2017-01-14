@@ -1,0 +1,115 @@
+**《全球14家顶尖 AI 产业巨头深度学习实力及战略分析》笔记**
+
+马春杰
+
+**文章内容：**
+
+>   本文作者根据他的观察，从谷歌
+>   DeepMind、微软到最近表现突出的亚马逊、Uber，盘点全球顶尖AI产业玩家的深度学习实力和战略。
+
+### 1 [DeepMind](https://deepmind.com/research/publications/)
+
+>   2010年，Demis创建了DeepMind，2014年1月，Google将其收购。
+
+DeepMind在研究中强调**深度强化学习**，即将深度学习与强化学习组合在一起。主要研究方向为：
+
+-   模型中的**非参数层嵌入使用变分法**
+
+-   **注意力机制**和**记忆增强网络**
+
+DeepMind的研究非常广，目的似乎是要发现**智能的本质**！！
+
+### 2 [Google大脑](https://research.googleblog.com/)
+
+Google大脑主要侧重于**实用**和**工程**。比如[谷歌推出商用神经网络机器翻译系统](http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2651987465&idx=1&sn=cde593712ed46abe9a22e49888a9df05&chksm=f1216af8c656e3eed736a7f503777cddd9e08866a19f14bca56c0c0ca9e637eeeb56d2b2a1e9&scene=21#wechat_redirect),识别率达到了87%。附带论文：\<
+Google's Neural Machine Translation System Bridging the Gap between Human and
+Machine Translation \>
+
+### 3 [Facebook/FAIR](https://research.fb.com/publications/?cat=2)
+
+团队由**Yann
+LeCun**领导，这个团队主要进行**探索深度学习基本层面的实验性研究**。不过这个团队的研究主线很模糊。
+
+### 4 [微软](https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/)
+
+微软与Google类似，偏向**实际的应用**以及**工程**。微软参与AI的时间较短，但是品质很高。**开源深度学习平台CNTK**或许是使用**分布式计算学习**方面最好的框架之一。
+
+### 5 [OpenAI](https://openai.com/requests-for-research/)
+
+>   OpenAI提倡学术自由，这使得他们吸引到了很多的人才。
+
+OpenAI倾向于使用**对抗网络**（GAN），还研究了**增强学习环境**。似乎更加偏爱**变分模型**（variational
+model）
+
+作者猜测：*微软与OpenAI已经结成了联盟。*
+
+2016年12月4日，OpenAI发布了Universe。 \>
+根据其官方博客的介绍，这是一个能在几乎所有环境中衡量和训练AI
+通用智能水平的开源平台，当下的目标是让 AI
+智能体能像人一样使用计算机。目前，Universe
+已经有1000种训练环境，由微软、英伟达等公司参与建设。研究人员介绍说，Universe
+从李飞飞等人创立的 ImageNet 上获得启发，希望把 ImageNet
+在降低图像识别错误率上的成功经验引入到通用人工智能的研究上来，取得实质进展。
+
+### 6 [蒙特利尔大学／Yoshua Bengio 团队](https://mila.umontreal.ca/en/)
+
+这个团队偏**学术**，由Bengio带领。Bengio参与创了了一个名为Element
+AI的孵化器，依托学术实力，为企业提供解决方案。
+
+>   Bengio曾对AI人才从学界流向产业界表示担忧，但现在他可能意识到，这种趋势无法阻挡，以深度学习为代表的
+>   AI
+>   技术正全面进入产业应用，与其反对，不如投身其中，引导深度学习研究者在产业中发挥最大潜力。不仅如此，他还表示创立孵化器只是他在蒙特利尔建立“AI生态圈”的其中一步。
+
+Bengio团队侧重于弄清**深度学习的工作原理**，作者认为：*MILA是地球上最好的深度学习研究小组*。
+
+>   Google通过资助Bengio小组进行间接地控制！
+
+### 7 [SalesForce MetaMind](http://metamind.io/research-list.html)
+
+该团队由**Richard
+Socher**领导，倾向于使用**RNN（递归神经网络）**的方法解决人工智能的自然语言处理（NLP）的问题。这个团队经常使用**记忆网络**，研究成果令人印象深刻。
+
+### 8 [百度](http://research.baidu.com/institute-of-deep-learning)
+
+团队由**吴恩达**领导，研究重点为**图像和语音处理**，对于**语音处理**方面做得很好。
+
+当然，百度最近也开始搞无人驾驶汽车了。
+
+### 9 [英伟达](http://vga.yesky.com/142/58401642.shtml)
+
+英伟达花费了大量精力来打造深度学习所需的强大计算资源，不断的调整GPU的性能。附论文《End
+to End Learning for Self-Driving Cars》
+
+### 10 [英特尔 Nervana](http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2651985792&idx=1&sn=420f0dd12f5634c647abac0fa274b0c6&scene=21#wechat_redirect)
+
+>   在前期，因特尔曾大幅裁员（1.2万人），能从中看出整个芯片产业一股更大的趋势：随着以深度学习为代表的人工智能技术走向主流，占据市场几十年的CPU可能被拉下王座；成本更低的FPGA、能够以更快速度处理数据的GPU、能够以更低精度进行计算的概率芯片和其他更多采用全新架构的（专用）处理器争夺市场的时代到来了。
+
+英特尔收购的公司**Nervana**非常擅长于研发深度学习所使用的**计算基础设施**，作者认为：*Nervana是因为其软件而被收购*，*而非硬件*。
+
+**英特尔的优势：**英特尔有与**Micron**共享的技术！！
+
+### 11 [IBM](https://arxiv.org/abs/1604.08242)
+
+IBM在深度学习的领域**反应缓慢**，几乎没有进行深度学习方面的研究，他们发布了一款**TrueNorth神经形态计算芯片**
+
+>   IBM日前发布了一款用于深度学习的类脑超级计算平台IBM
+>   TrueNorth。新智元芯片专家群的几位专家讨论后认为：TrueNorth
+>   虽然与人脑某些结构和机理较为接近，但智能算法的精度或效果有待进一步提高，离大规模商业应用还有一段距离；但从长远来看，研究类脑计算是通往强人工智能的有效方法。
+
+### 12 苹果
+
+苹果未来的研究偏向于**Russ对无监督学习的研究**。一些大型收购主要发生在**机器学习**领域。
+
+### 13 [亚马逊](http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2651990387&idx=1&sn=0cf31c2dc4954d67a91a46c9a62ec071&chksm=f1215d82c656d494210d41a74115a39efacba22fa394eb47cfadeb8f8e629943586a8ba62be5&scene=21#wechat_redirect)
+
+2016年5月11日下午，亚马逊宣布开源其深度学习和机器学习工具**DSSTNE**，并表示与相比其他深度学习工具，**DSSTNE尤其擅于训练稀疏数据**。
+
+>   DSSTNE 是英文“ Deep Scalable Sparse Tensor Network
+>   Engine”的简写，即“深度可伸缩的稀疏张量网络工具”。亚马逊相关研究团队对DSSTNE的描述是
+>   “一个使用GPU训练和部署深度神经网络的开源工具”。
+
+### 14 Uber
+
+-   Uber最近收购了自动驾驶卡车初创公司Otto
+
+-   通过收购 Geometric Intelligence 建立了他们的 AI 实验室
